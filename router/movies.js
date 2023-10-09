@@ -5,9 +5,7 @@ const jwt = require('jsonwebtoken')
 const JWT_SECRET = "f4973e1e-a81b-415e-b9c0-70d95d5b7481"
 
 movieRouter.use((req, res, next) => {  
-
   const token = req.header('jwt-token')
-
 
   try {
     jwt.verify(token, JWT_SECRET)
