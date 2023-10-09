@@ -255,8 +255,8 @@
     "UsersRegisterRequest": {
       "title": "UsersRegisterRequest",
       "example": {
-        "email": "sivermee2@vkontakte.ru",
-        "password": "cQQ0flW"
+        "email": "cborrill2p@sciencedirect.com",
+        "password": "L38dNYJaR6F"
       },
       "type": "object",
       "properties": {
