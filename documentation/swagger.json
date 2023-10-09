@@ -220,6 +220,35 @@
           }
         }
       }
+    },
+    "/users": {
+      "get": {
+        "description": "Users get the table users from database with token verify",
+        "summary": "Users login users",
+        "tags": [
+          "Misc"
+        ],
+        "operationId": "Usersloginusers",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "jwt-token",
+            "in": "header",
+            "required": true,
+            "type": "string",
+            "description": ""
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
     }
   },
   "definitions": {
