@@ -9,7 +9,7 @@ const swaggerDocument = require('./documentation/swagger.json');
 const morgan = require('morgan')
 app.use(morgan('tiny'));
 
-app.use('/api-docs/hw9', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+app.use('/api-docs/homework', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 
 app.use(bodyParser.json());
